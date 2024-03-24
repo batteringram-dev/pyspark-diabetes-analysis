@@ -1,7 +1,12 @@
-PySpark ETL
+# Diabetes Data Analysis using Python and Spark
+## Overview
+Extract, Transform, and Load pipeline that extracts raw data from S3, transforms, and writes the data back to S3 in PySpark.
 
-This is an ETL pipeline using Diabetes dataset in PySpark. 
+## What problem does it solve?
+Performed analysis to find out whether a person:
+- has diabetes or not
+- BMI check
+- finding out the Glucose level of people of different ages.
 
-1. Extract - Extract the csv file from our Amazon's S3 bucket and read it using PySpark.
-2. Transform - Some transformations such as Null Handling, UDFs, Filtering, Windowing.
-3. Load - Loading the transformed data back to our S3 bucket in a new folder.
+The transformed data is written back to S3.
+
